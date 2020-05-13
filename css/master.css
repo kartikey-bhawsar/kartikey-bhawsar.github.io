@@ -1,27 +1,34 @@
 /* Cascading stylesheet for the website */
 
+/* Text inside these asterisks and slashes are comments for human */
+
   a {
     color: green;
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
 
   a:hover {
-    color: blue;
-    text-decoration: none; 
-  }
+    color: blue; 
+    text-decoration: none;
 
   body {
     background-color: beige;
     color: black;
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
+    /* set the background color here */
+    /* set the text color to black here */
+    /* set the font here */
+    /* set the text alignment here */
    }
    
    .resume{
 	background-image: url('https://onlytds.com/wp-content/uploads/2019/06/work.jpeg');
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-position: center center;
 	background-size: cover;
+	background-attachment: fixed; 
+	@media (max-width: @iphone-screen) { background-attachment: scroll; }
 	}
 
   footer {
