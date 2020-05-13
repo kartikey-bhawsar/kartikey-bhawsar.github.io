@@ -9,27 +9,28 @@
 
   a:hover {
     color: blue; 
-    text-decoration: none;
+    text-decoration: none; 
+  }
 
   body {
     background-color: beige;
     color: black;
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
-    /* set the background color here */
-    /* set the text color to black here */
-    /* set the font here */
-    /* set the text alignment here */
    }
    
    .resume{
-	background-image: url('https://onlytds.com/wp-content/uploads/2019/06/work.jpeg');
+	background-color: black;
+	background-image: url('https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?size=626&ext=jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	background-attachment: fixed; 
-	@media (max-width: @iphone-screen) { background-attachment: scroll; }
+	background-attachment: fixed;
+	background-blend-mode: lighten;
 	}
+	@media only screen and (min-width : 320px) and (max-width : 480px) {
+	background: url('https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?size=626&ext=jpg') no-repeat center center fixed;
+}
 
   footer {
     margin-top: 2rem;
